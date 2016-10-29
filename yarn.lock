@@ -735,6 +735,13 @@ diff@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/diff/-/diff-3.0.1.tgz#a52d90cc08956994be00877bff97110062582c35"
 
+doctrine@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/doctrine/-/doctrine-0.7.2.tgz#7cb860359ba3be90e040b26b729ce4bfa654c523"
+  dependencies:
+    esutils "^1.1.6"
+    isarray "0.0.1"
+
 dot-prop@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-3.0.0.tgz#1b708af094a49c9a0e7dbcad790aba539dac1177"
@@ -797,6 +804,10 @@ esprima@~3.0.0:
 estraverse@^1.9.1:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-1.9.3.tgz#af67f2dc922582415950926091a4005d29c9bb44"
+
+esutils@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/esutils/-/esutils-1.1.6.tgz#c01ccaa9ae4b897c6d0c3e210ae52f3c7a844375"
 
 esutils@^2.0.2:
   version "2.0.2"
@@ -1500,6 +1511,12 @@ jasmine-check@^0.1.4:
   dependencies:
     testcheck "^0.1.0"
 
+jest:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/jest/-/jest-16.0.2.tgz#4a2f7f3527465168a0bafe0c3d55055188253f3a"
+  dependencies:
+    jest-cli "^16.0.2"
+
 jest-changed-files@^16.0.0:
   version "16.0.0"
   resolved "https://registry.yarnpkg.com/jest-changed-files/-/jest-changed-files-16.0.0.tgz#7931deff4424182b8173d80e06800d7363b19c45"
@@ -1674,12 +1691,6 @@ jest-util@^16.0.2:
     jest-file-exists "^15.0.0"
     jest-mock "^16.0.2"
     mkdirp "^0.5.1"
-
-jest@^16.0.2:
-  version "16.0.2"
-  resolved "https://registry.yarnpkg.com/jest/-/jest-16.0.2.tgz#4a2f7f3527465168a0bafe0c3d55055188253f3a"
-  dependencies:
-    jest-cli "^16.0.2"
 
 jodid25519@^1.0.0:
   version "1.0.2"
@@ -2935,9 +2946,27 @@ ts-jest:
     source-map-support "^0.4.4"
     yargs "^6.1.1"
 
+tslint-config-xo:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/tslint-config-xo/-/tslint-config-xo-0.2.0.tgz#6873de2d5f4078ea5ffe633d5cdfc42d645ae871"
+  dependencies:
+    tslint-eslint-rules "2.1.0"
+    tslint-microsoft-contrib "2.0.12"
+
+tslint-eslint-rules@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/tslint-eslint-rules/-/tslint-eslint-rules-2.1.0.tgz#1535f9e5843f8c976d51e0f80fb20fc5f0640ea1"
+  dependencies:
+    doctrine "^0.7.2"
+    tslint "^3.15.1"
+
 tslint-microsoft-contrib@^2.0.13:
   version "2.0.13"
   resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-2.0.13.tgz#30ed7e1a03261eea091354eaca3afe7b25e04ca7"
+
+tslint-microsoft-contrib@2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-2.0.12.tgz#f5f229709a30ba5a2d4587ef881c9a86f502cd62"
 
 tslint@^3.15.1:
   version "3.15.1"

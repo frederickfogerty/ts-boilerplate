@@ -1,6 +1,6 @@
 {
   "name": "@frederickfogerty/ts-boilerplate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An opinionated npm module boilerplate with batteries included",
   "main": "index.js",
   "scripts": {

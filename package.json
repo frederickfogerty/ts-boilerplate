@@ -45,9 +45,7 @@
       "js"
     ]
   },
-  "dependencies": {
-    "jest": "^16.0.2"
-  },
+  "dependencies": {},
   "publishConfig": {
     "access": "public"
   }

@@ -3020,10 +3020,6 @@ tslint-eslint-rules@2.1.0:
     doctrine "^0.7.2"
     tslint "^3.15.1"
 
-tslint-microsoft-contrib@^2.0.13:
-  version "2.0.13"
-  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-2.0.13.tgz#30ed7e1a03261eea091354eaca3afe7b25e04ca7"
-
 tslint-microsoft-contrib@2.0.12:
   version "2.0.12"
   resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-2.0.12.tgz#f5f229709a30ba5a2d4587ef881c9a86f502cd62"

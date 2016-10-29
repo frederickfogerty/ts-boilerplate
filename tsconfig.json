@@ -7,7 +7,6 @@
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
-    "noLib": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "moduleResolution": "node",

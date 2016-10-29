@@ -22,10 +22,25 @@
   },
   "homepage": "https://github.com/frederickfogerty/js-util#readme",
   "devDependencies": {
+    "@types/jest": "^15.1.32",
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-preset-node6": "^11.0.0",
     "jest": "^16.0.2",
     "np": "frederickfogerty/np#7a14e2fba55ba0bd01a43a5ee201889814b03b0d",
+    "ts-jest": "^0.1.11",
     "tslint": "^3.15.1",
     "tslint-microsoft-contrib": "^2.0.13",
     "typescript": "^2.0.6"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",
+    "testResultsProcessor": "<rootDir>/node_modules/ts-jest/coverageprocessor.js",
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
   }
 }

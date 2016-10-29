@@ -4,7 +4,7 @@
   "description": "An opinionated npm module boilerplate with batteries included",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && babel dist -d dist",
     "build:watch": "tsc -w",
     "lint": "tslint src/**",
     "prepublish": "npm run build && npm run test && npm run lint",

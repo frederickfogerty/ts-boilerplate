@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc && babel dist -d dist",
     "build:watch": "tsc -w",
-    "lint": "tslint src/**",
+    "lint": "tslint src",
     "prepublish": "npm run build && npm run test && npm run lint",
     "np": "np",
     "test": "jest"
@@ -42,5 +42,9 @@
       "tsx",
       "js"
     ]
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
   }
 }

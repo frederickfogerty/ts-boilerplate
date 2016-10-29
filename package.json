@@ -4,12 +4,12 @@
   "description": "An opinionated npm module boilerplate with batteries included",
   "main": "index.js",
   "scripts": {
-    "build": "tsc && babel dist -d dist",
+    "build": "rm -rf dist && tsc && babel dist -d dist",
     "build:watch": "tsc -w",
     "lint": "tslint 'src/**/*.ts{,x}' --type-check --format verbose",
-    "prepublish": "npm run build && npm run test && npm run lint",
-    "np": "np",
-    "test": "jest"
+    "prepublish": "npm run build",
+    "np": "ynp",
+    "test": "jest && npm run lint"
   },
   "repository": {
     "type": "git",
@@ -27,12 +27,12 @@
     "babel-core": "^6.18.0",
     "babel-preset-node6": "^11.0.0",
     "jest": "^16.0.2",
-    "np": "frederickfogerty/np#7a14e2fba55ba0bd01a43a5ee201889814b03b0d",
     "ts-jest": "^0.1.11",
     "tslint": "^3.15.1",
     "tslint-config-xo": "^0.2.0",
     "tslint-microsoft-contrib": "^2.0.13",
-    "typescript": "^2.0.6"
+    "typescript": "^2.0.6",
+    "ynp": "^2.9.0"
   },
   "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/ts-jest/preprocessor.js",

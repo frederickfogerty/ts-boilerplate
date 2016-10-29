@@ -16,11 +16,14 @@
 
 ## API
 
-```js
-var @frederickfogerty/jsUtil = require('@frederickfogerty/js-util')
-```
+`npm run [command]`
 
-See [api_formatting.md](api_formatting.md) for tips.
+Available commands:
+- **test**: test with Jest
+- **np**: publish to npm using ynp, a fork of np
+- **build**: build the project into `dist`
+- **build:watch**: watch and incrementally build the project. Does not compile with babel.
+- **lint**: lint the project using tslint
 
 ## Install
 

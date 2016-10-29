@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/frederickfogerty/js-util.git"
+    "url": "git+https://github.com/frederickfogerty/ts-boilerplate.git"
   },
   "author": "Frederick Fogerty",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frederickfogerty/js-util/issues"
+    "url": "https://github.com/frederickfogerty/ts-boilerplate/issues"
   },
-  "homepage": "https://github.com/frederickfogerty/js-util#readme",
+  "homepage": "https://github.com/frederickfogerty/ts-boilerplate#readme",
   "devDependencies": {
     "@types/jest": "^15.1.32",
     "babel-cli": "^6.18.0",

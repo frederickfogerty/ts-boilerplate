@@ -13,6 +13,7 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "inlineSources": true,
+    "pretty": true,
     "lib": [
       "es2015",
       "es2016"

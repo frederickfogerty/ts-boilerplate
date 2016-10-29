@@ -1,0 +1,31 @@
+{
+  "name": "@frederickfogerty/ts-boilerplate",
+  "version": "0.1.0",
+  "description": "A universal set of typescript helpers for use on any platform",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "lint": "tslint src/**",
+    "prepublish": "npm run build && npm run test && npm run lint",
+    "np": "np",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frederickfogerty/js-util.git"
+  },
+  "author": "Frederick Fogerty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frederickfogerty/js-util/issues"
+  },
+  "homepage": "https://github.com/frederickfogerty/js-util#readme",
+  "devDependencies": {
+    "jest": "^16.0.2",
+    "np": "frederickfogerty/np#7a14e2fba55ba0bd01a43a5ee201889814b03b0d",
+    "tslint": "^3.15.1",
+    "tslint-microsoft-contrib": "^2.0.13",
+    "typescript": "^2.0.6"
+  }
+}

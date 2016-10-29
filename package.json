@@ -1,7 +1,7 @@
 {
   "name": "@frederickfogerty/ts-boilerplate",
   "version": "0.1.0",
-  "description": "A universal set of typescript helpers for use on any platform",
+  "description": "An opinionated npm module boilerplate with batteries included",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
